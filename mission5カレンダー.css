@@ -1,0 +1,58 @@
+body {
+  font-family:  'snell roundhand', monospace;
+  font-size: 14px;
+  color: black;
+  margin: 150px auto;
+  background-color: #fff;
+}
+
+table {
+  padding : 10px 0;
+  width: 500px;
+  border-collapse: collapse;
+  border: 2px solid #0000ff;
+  margin: 0 auto;
+  box-shadow: 0 0 20px white;
+}
+
+thead,
+tfoot {
+  background: #00f;
+  color: white;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align:  center;
+}
+
+tbody td:first-child {
+  color: red;
+}
+
+tbody td:last-child {
+  color: blue;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+td.disabled {
+  opacity: 0.3;
+}
+
+td.today {
+  font-weight: bold;
+}
+
+#prev,
+#next,
+#today {
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
